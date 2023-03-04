@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx playwright install",
+    "build": "NODE_OPTIONS=--enable-source-maps next build && npx playwright install",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "NODE_OPTIONS=--enable-source-maps"
   },
   "dependencies": {
     "@codemirror/lang-json": "^6.0.1",
@@ -28,8 +29,8 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "playwright": "^1.31.2",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7",
-    "playwright": "latest"
+    "tailwindcss": "^3.2.7"
   }
 }
