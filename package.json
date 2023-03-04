@@ -23,7 +23,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "theme-change": "^2.5.0",
-    "translate-json-file": "^2.0.7",
+    "translate-json-file": "^2.0.8",
     "typescript": "4.9.5"
   },
   "devDependencies": {
