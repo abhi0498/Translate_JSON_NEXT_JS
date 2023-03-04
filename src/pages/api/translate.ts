@@ -5,7 +5,7 @@ const routes = async (req, res) => {
   if (req.method === "POST") {
     console.log(req.body);
     const { inputJson, language } = req.body;
-    res.status(200).json(await translate(inputJson, language, false));
+    res.status(200).json(await translate(inputJson, language, true));
   }
 };
 
