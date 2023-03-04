@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npx playwright install",
     "start": "next start",
     "lint": "next lint"
   },
@@ -23,12 +23,13 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "theme-change": "^2.5.0",
-    "translate-json-file": "^2.0.5",
+    "translate-json-file": "^2.0.6",
     "typescript": "4.9.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7"
+    "tailwindcss": "^3.2.7",
+    "playwright": "latest"
   }
 }

@@ -2380,7 +2380,7 @@ playwright-core@1.31.2:
   resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.31.2.tgz#debf4b215d14cb619adb7e511c164d068075b2ed"
   integrity sha512-a1dFgCNQw4vCsG7bnojZjDnPewZcw7tZUNFN0ZkcLYKj+mPmXvg4MpaaKZ5SgqPsOmqIf2YsVRkgqiRDxD+fDQ==
 
-playwright@^1.31.1:
+playwright@^1.31.1, playwright@latest:
   version "1.31.2"
   resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.31.2.tgz#4252280586c596746122cd1fdf9f8ff6a63fa852"
   integrity sha512-jpC47n2PKQNtzB7clmBuWh6ftBRS/Bt5EGLigJ9k2QAKcNeYXZkEaDH5gmvb6+AbcE0DO6GnXdbl9ogG6Eh+og==
@@ -2911,10 +2911,10 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-translate-json-file@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/translate-json-file/-/translate-json-file-2.0.5.tgz#16095f00f1dac40f6ff83b4e86749604d3099762"
-  integrity sha512-ARklAn5rlbs9Q7uX+7RyMhBvkwrB/O8PzqltTUQczKiwIoQj9ZrI1313XSz83t7hK+2it3gJgMG6ItsX+uDlqw==
+translate-json-file@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/translate-json-file/-/translate-json-file-2.0.6.tgz#0e0c4b39821fc723ebfd3ea4b57e87c8454d11dd"
+  integrity sha512-pUjGJPZQ1fAsAuGaF0ZH5x8tbbepJSm8+CbdoKfoiAwmntSw0V/w6S9xwVmTXGDCxIi823RrVAR8NDEz9wmodQ==
   dependencies:
     cli-progress "^3.12.0"
     command-line-args "^5.2.1"
